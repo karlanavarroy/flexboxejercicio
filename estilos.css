@@ -1,0 +1,48 @@
+/*cuando quieres una instruccion o caracteristica que aplique para TODA la pagina se pone un asterisco al principio y las llaves, se llama universal*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite
+}
+.main-image{
+    background: url("imagenes/pic1.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.main-image h1{
+    font-size:64px;
+    margin-bottom:12px;
+}
+
+.main-image p{
+    font-size:24px;
+    margin-bottom:3rem;
+}
+
+.main-image button {
+    background:none;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius: 3px;
+    padding:1rem 2rem; /*para dar espacio entre el botton y el texto, por defacult primero empieza por arriba, luego el valor o margen d ela derecha luego del de abajo y asi)*/
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+
+}
